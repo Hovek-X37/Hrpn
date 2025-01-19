@@ -227,7 +227,7 @@ class HRPNApp():
         print("sto[key]: Store the top number on the stack to the registry")
         print("rnd[digits]: Show the last number on the stack with the specified number of digits")
         print("rcl[key]: Recall a number from the registry")
-        print("settings: Change the settings")
+        print("set: Change the settings")
         print("q: Quit the calculator")
 
     def show_about(self):
