@@ -55,6 +55,7 @@ class HRPNS():
                 self.settings.update({'hideheader': False})
                 self.settings.update({'hidestack': False})
                 self.settings.update({'registry': True})
+                self.settings.update({'orientation': 'v'})
                 self.path.write_text(json.dumps(self.settings))
 
     def change_app_settings(self):
